@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>My music app</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <img id = "Background" src="./assets/cover/Fine Line album.jpg" alt="" srcset="">
+    <audio id = "Song" src="./Assets/music/Watermelon Sugar - Harry Styles.mp3"></audio>
+    <div class = "container">
+        <div class = "box"></div>
+        <img id = "Thumbnail" src="./assets/cover/Fine Line album.jpg" alt="" srcset="">
+        <img id = "Previous" src = "./assets/icon/back.png" alt="" srcset="">
+        <img id = "Next" src="./assets/icon/next.png" alt="" srcset="">
+        <img id = "Play-Pause" onclick="PlayPauseFunc()" src="./assets/icon/play-button.png" alt="" srcset="">
+
+        <input type = "range" min = "0" max = "" value = "0" id = "range-slider">
+            <div class = "currenttime"></div>
+            <div class = "durationtime"></div>
+        
+        <div id = "song-artist" class = "song-artist" >Harry Styles</div>
+        <div id = "song-title" class = "song-title">Watermelon Sugar</div>
+        <script src="app.js"></script>
+</body>
+</html>
