@@ -27,23 +27,23 @@ let titles = [
     'Dynamite'
 ]
 let songs = [
-    './assets/music/Watermelon Sugar - Harry Styles.mp3',
-    './assets/music/Dynamite - BTS.mp3'
+    './Assets/music/Watermelon Sugar - Harry Styles.mp3',
+    './Assets/music/Dynamite - BTS.mp3'
 ]
 let covers = [
-    './assets/cover/Fine Line album.jpg',
-    './assets/cover/dynamite.jpeg'
+    './Assets/cover/Fine Line album.jpg',
+    './Assets/cover/dynamite.jpeg'
 ]
 
 let playing = true
 
 function PlayPauseFunc() {
     if(playing){
-        playPause.src = './assets/icon/pause.png'
+        playPause.src = './Assets/icon/pause.png'
         Song.play()
     }
     else{
-        playPause.src = './assets/icon/play-button.png'
+        playPause.src = './Assets/icon/play-button.png'
         Song.pause()
     }
     playing = !playing
